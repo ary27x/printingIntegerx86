@@ -23,8 +23,6 @@ jl _mod_exit
 add rbx , rdx
 jmp _mod_loop
 
-; we need to find 16 mod 7 which is 2 we will put the answer in the rdx register
-
 
 _mod_exit:
 
