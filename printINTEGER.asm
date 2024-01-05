@@ -17,7 +17,7 @@ mov rdx , 0 ; we are setting up the counter
 
 _primaryLoop:
 cmp rax , 0
-je _loopCallRAX ; this is the case for no
+je _loopCallRAX 
 call _mod
 ; we get the digit in the rcx register
 ; so we push it onto the stack and increment the counter register
